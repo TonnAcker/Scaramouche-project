@@ -4,6 +4,9 @@ body{
     radial-gradient(at 47% 33%, hsl(268.70, 70%, 32%) 0, transparent 59%), 
     radial-gradient(at 82% 65%, hsl(269.59, 67%, 22%) 0, transparent 55%);
     font: normal 12pt arial;
+    display: flex;
+    justify-content: center;
+
 }
 header{
     width: 900px;
@@ -13,8 +16,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
     padding: 10px;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -23,18 +24,26 @@ header{
     border-radius: 10px;
 }.nav{
     padding: 1rem;
+    display: flex;
+    justify-content: center;
 }.nav-item{
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     padding: 0.8rem;
 }.scarahead{
-    border-radius: 7px;
+    border-radius: 12px;
+}.ladoalado{
+    display: flex;
+}.fatuiconst{
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: 2px;
 }
 main{
     color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
 }footer p{
     color: white;
     text-align: center;
